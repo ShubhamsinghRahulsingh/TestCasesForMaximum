@@ -12,7 +12,7 @@ namespace FindMaxNumTest
         [Test]
         public void GivenMaxFirstNum_WhenAnalysed_ShouldReturnFirstMax()//max number at first position
         {
-            int result = generic1.FindMaximumGeneric(23, 17, 14);//using generic class 
+            int result = generic1.FindMaximumGeneric(23, 17, 14);//using Generic class 
             Assert.AreEqual(23,result);
         }
         [Test]
